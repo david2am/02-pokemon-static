@@ -38,6 +38,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@nextui-org/react", "virtual:71a9ed0cc6ed855c0d92c08e2856490cfa26051fc92c4d79d171936a18727ea7d2fa340e12389084761ba863ebcc1632ea1611ff70a5517617030fea950056fd#npm:1.0.2-beta.5-dbg3"],
             ["@types/node", "npm:17.0.21"],
             ["@types/react", "npm:17.0.39"],
+            ["axios", "npm:0.26.1"],
             ["eslint", "npm:8.10.0"],
             ["eslint-config-next", "virtual:71a9ed0cc6ed855c0d92c08e2856490cfa26051fc92c4d79d171936a18727ea7d2fa340e12389084761ba863ebcc1632ea1611ff70a5517617030fea950056fd#npm:12.1.0"],
             ["next", "virtual:71a9ed0cc6ed855c0d92c08e2856490cfa26051fc92c4d79d171936a18727ea7d2fa340e12389084761ba863ebcc1632ea1611ff70a5517617030fea950056fd#npm:12.1.0"],
@@ -1737,6 +1738,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["axios", [
+        ["npm:0.26.1", {
+          "packageLocation": "./.yarn/cache/axios-npm-0.26.1-a6641ce4e3-d9eb58ff4b.zip/node_modules/axios/",
+          "packageDependencies": [
+            ["axios", "npm:0.26.1"],
+            ["follow-redirects", "virtual:a6641ce4e3bdcc0997f8f53d9481b67c5d38e21276de8eeee7bf92881685b3ad5600bae416c2af904ceab8132bac649e7efd0af93f18e158e0e65ee05a263d72#npm:1.14.9"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["axobject-query", [
         ["npm:2.2.0", {
           "packageLocation": "./.yarn/cache/axobject-query-npm-2.2.0-6553738f52-96b8c7d807.zip/node_modules/axobject-query/",
@@ -2517,6 +2528,26 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/flatted-npm-3.2.5-0ee5a8875f-3c436e9695.zip/node_modules/flatted/",
           "packageDependencies": [
             ["flatted", "npm:3.2.5"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["follow-redirects", [
+        ["npm:1.14.9", {
+          "packageLocation": "./.yarn/cache/follow-redirects-npm-1.14.9-522f191631-f5982e0eb4.zip/node_modules/follow-redirects/",
+          "packageDependencies": [
+            ["follow-redirects", "npm:1.14.9"]
+          ],
+          "linkType": "SOFT",
+        }],
+        ["virtual:a6641ce4e3bdcc0997f8f53d9481b67c5d38e21276de8eeee7bf92881685b3ad5600bae416c2af904ceab8132bac649e7efd0af93f18e158e0e65ee05a263d72#npm:1.14.9", {
+          "packageLocation": "./.yarn/__virtual__/follow-redirects-virtual-2db68225c5/0/cache/follow-redirects-npm-1.14.9-522f191631-f5982e0eb4.zip/node_modules/follow-redirects/",
+          "packageDependencies": [
+            ["follow-redirects", "virtual:a6641ce4e3bdcc0997f8f53d9481b67c5d38e21276de8eeee7bf92881685b3ad5600bae416c2af904ceab8132bac649e7efd0af93f18e158e0e65ee05a263d72#npm:1.14.9"],
+            ["debug", null]
+          ],
+          "packagePeers": [
+            "debug"
           ],
           "linkType": "HARD",
         }]
@@ -3410,6 +3441,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@nextui-org/react", "virtual:71a9ed0cc6ed855c0d92c08e2856490cfa26051fc92c4d79d171936a18727ea7d2fa340e12389084761ba863ebcc1632ea1611ff70a5517617030fea950056fd#npm:1.0.2-beta.5-dbg3"],
             ["@types/node", "npm:17.0.21"],
             ["@types/react", "npm:17.0.39"],
+            ["axios", "npm:0.26.1"],
             ["eslint", "npm:8.10.0"],
             ["eslint-config-next", "virtual:71a9ed0cc6ed855c0d92c08e2856490cfa26051fc92c4d79d171936a18727ea7d2fa340e12389084761ba863ebcc1632ea1611ff70a5517617030fea950056fd#npm:12.1.0"],
             ["next", "virtual:71a9ed0cc6ed855c0d92c08e2856490cfa26051fc92c4d79d171936a18727ea7d2fa340e12389084761ba863ebcc1632ea1611ff70a5517617030fea950056fd#npm:12.1.0"],
