@@ -29,7 +29,7 @@ export const Navbar = () => {
             <NextLink href="/" passHref>
                 <Link>
                     <Text color="white" h2>P</Text>
-                    <Text color="white" h3>ókemon</Text>
+                    <Text color="white" h3>ókemon!</Text>
                 </Link>
             </NextLink>
             <Spacer css={{flex: 1}} />
